@@ -1,13 +1,7 @@
---only-binary=:all:  # 强制跳过源码编译，直接使用预编译 wheel
+--only-binary=:all:
 setuptools==65.5.0
 wheel
 streamlit==1.25.0
 pandas==1.5.3
-numpy==1.26.5
-tushare==1.2.61
-xlsxwriter==3.1.1
-openpyxl==3.1.3
-rich==14.0.0
-markdown-it-py==2.2.0
-pygments==2.20.0
-mdurl==0.1.2
+numpy==1.26.4  # 修正为 1.26.4（1.26.5 不存在）
+# 删除所有关于 rich 的显式声明
