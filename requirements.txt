@@ -1,7 +1,19 @@
 --only-binary=:all:
+
+# 基础构建工具
 setuptools==65.5.0
 wheel
+
+# 前端 UI
 streamlit==1.25.0
+
+# 数据处理
 pandas==1.5.3
-numpy==1.26.4  # 修正为 1.26.4（1.26.5 不存在）
-# 删除所有关于 rich 的显式声明
+numpy==1.26.4  # Cloud 可用的 numpy 版本
+
+# Excel 读写
+openpyxl==3.1.3
+xlsxwriter==3.1.1
+
+# 数据接口
+tushare==1.2.61
