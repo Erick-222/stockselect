@@ -1,4 +1,4 @@
-setuptools>=65.5.0
+setuptools<82
 wheel
 streamlit==1.25.0
 pandas==1.5.3
